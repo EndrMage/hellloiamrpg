@@ -10,6 +10,7 @@ pygame.display.set_caption("trying to understand pygame")
 
 # thingy that means everything stops after close button is pressed
 running = True
+# looping while running
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
